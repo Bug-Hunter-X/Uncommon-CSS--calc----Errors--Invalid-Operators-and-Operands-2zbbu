@@ -1,0 +1,1 @@
+The CSS property `calc()` is used with an invalid operator or operand, resulting in unexpected rendering or layout issues.  For example, using an unsupported unit within `calc()` or attempting to mix incompatible units.
