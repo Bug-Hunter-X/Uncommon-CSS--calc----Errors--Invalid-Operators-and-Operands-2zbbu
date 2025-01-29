@@ -1,0 +1,22 @@
+/* bugSolution.css */
+
+.box {
+  width: calc(50% - 20px);
+  /* Corrected: Consistent unit usage (px) */
+  height: 100px;
+  background-color: lightblue;
+}
+
+/* Or using percentage only: */
+.box2 {
+  width: calc(50% - 10%); /* This is also valid, as both units are percentages */
+  height: 100px;
+  background-color: lightcoral;
+}
+
+/* Or, for a more complex example: */
+.box3 {
+  width: calc((100vw - 20px) / 2);
+  height: 100px;
+  background-color: lightgreen;
+}
